@@ -1,4 +1,4 @@
-import socket
+import socket #Allows connections between computers
 
 def start_server():
     host = 'localhost'
@@ -31,4 +31,5 @@ def start_server():
         print("[+] Connection closed.")
 if __name__ == "__main__":
     start_server()
+
            
