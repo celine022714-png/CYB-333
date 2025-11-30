@@ -1,7 +1,7 @@
 import socket #Allows connections between computers
 
-def start_server():
-    host = 'localhost'
+def start_server(): #Defines a function that will run/start the server
+    host = 'localhost' #
     port = 4444
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -33,3 +33,4 @@ if __name__ == "__main__":
     start_server()
 
            
+
